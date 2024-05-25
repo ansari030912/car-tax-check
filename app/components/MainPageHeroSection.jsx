@@ -43,7 +43,6 @@ const MainPageHeroSection = () => {
                 benefits for your team
               </p>
               <Tool />
-
               <p class="mb-6 text-sm text-gray-500 font-semibold uppercase">
                 Trusted and loved by 100+ tech first teams
               </p>

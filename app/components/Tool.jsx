@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
@@ -12,7 +13,7 @@ const Tool = () => {
 
   const handleButtonClick = async () => {
     try {
-      const response = await fetch(
+      const response = await axios.post(
         `https://services98767.herokuapp.com/euro/eurostatus/${regNum}`
       );
       if (response.status === 200) {
@@ -103,7 +104,7 @@ const Tool = () => {
             </button>
           </div>
         </div>
-        <div className="w-full md:w-auto p-2.5">
+        {/* <div className="w-full md:w-auto p-2.5">
           <div className="block">
             <button
               className="py-4 px-9 w-full font-semibold border border-gray-300 hover:border-gray-400 rounded-xl focus:ring focus:ring-gray-50 bg-transparent hover:bg-gray-100 transition ease-in-out duration-200"
@@ -133,7 +134,7 @@ const Tool = () => {
               </div>
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
