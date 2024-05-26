@@ -1,12 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import MainPageFaqs from "./components/MainPageFaqs";
 import MainPageHeroSection from "./components/MainPageHeroSection";
-import NavBar from "./components/NavBar";
 
 export default function Home() {
   return (
     <div className="mx-auto container">
-      <NavBar />
       <MainPageHeroSection />
       <div className="bg-white">
         <div className="m-auto container">
