@@ -18,7 +18,7 @@ const MainPageHeroSection = () => {
               </h2>
               <Tool />
             </div>
-            <div class="w-full md:w-5/12 p-3  -pt-10">
+            <div class="w-full md:w-5/12 p-3 md:mt-10 ">
               <img
                 class="transform hover:-translate-y-16 transition ease-in-out duration-1000"
                 src="/3.png"
