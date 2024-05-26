@@ -354,20 +354,20 @@ export default function Home() {
               <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800">
                 How Our Free Car Check Works?
               </h2>
-              <p class="lg:w-12/12 py-3 leading-relaxed text-lg text-gray-700">
+              <p class="lg:w-12/12 py-3 leading-relaxed text-xl text-gray-700">
                 To get started with our comprehensive vehicle check service,
                 simply enter your car registration number in the designated
                 field at the top of our webpage. Once you submit the
                 registration number, our system will instantly access detailed
                 information about your car, sourced directly from the DVLA.
               </p>
-              <p class="lg:w-12/12 py-3 leading-relaxed text-lg text-gray-700">
+              <p class="lg:w-12/12 py-3 leading-relaxed text-xl text-gray-700">
                 With a database of over 40 million records, we offer
                 unparalleled coverage across the UK. Our service features
                 detailed mileage analysis checks, carefully scrutinising various
                 records to guarantee precise and trustworthy information.
               </p>
-              <p class="lg:w-12/12 py-3 leading-relaxed text-lg text-gray-700">
+              <p class="lg:w-12/12 py-3 leading-relaxed text-xl text-gray-700">
                 This thorough approach helps you uncover any discrepancies,
                 offering you peace of mind and confidence in the vehicle’s
                 history and condition. Whether you&apos;re verifying ownership
@@ -379,7 +379,7 @@ export default function Home() {
               <h3 class="text-2xl font-medium title-font mb-4 text-gray-800">
                 DIY Car Checks
               </h3>
-              <p class="lg:w-12/12 pt-3 leading-relaxed text-lg text-gray-700">
+              <p class="lg:w-12/12 pt-3 leading-relaxed text-xl text-gray-700">
                 DIY Car Checks Besides the registration and MOT expiry dates,
                 there are some vehicle checks that you can perform at home. Here
                 are some examples:
