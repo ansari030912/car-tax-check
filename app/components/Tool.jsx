@@ -100,7 +100,7 @@ const Tool = () => {
               type="button"
               onClick={handleButtonClick}
             >
-              NUMBER PLATE CHECK
+              FREE CAR CHECK
             </button>
           </div>
         </div>
