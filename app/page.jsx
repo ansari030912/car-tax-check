@@ -278,20 +278,16 @@ export default function Home() {
               <h3 class="text-2xl font-medium title-font mb-4 text-gray-800">
                 DIY Car Checks
               </h3>
-              <p class="lg:w-12/12 py-3 leading-relaxed text-lg text-gray-700">
+              <p class="lg:w-12/12 pt-3 leading-relaxed text-lg text-gray-700">
                 DIY Car Checks Besides the registration and MOT expiry dates,
                 there are some vehicle checks that you can perform at home. Here
                 are some examples:
               </p>
             </div>
-            <div class="flex flex-wrap -m-2">
+            <div class="flex flex-wrap -my-10">
               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                 <div class="h-full flex items-center border-gray-200 bg-white border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    class="w-16 h-16 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="/Green-check-mark-icon-removebg-preview.png"
-                  />
+                  <span className="text-3xl mr-2">✅</span>
                   <div class="flex-grow">
                     <h2 class="text-gray-900 title-font font-medium">
                       Tire Pressure and Tread Depth
@@ -301,11 +297,7 @@ export default function Home() {
               </div>
               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                 <div class="h-full flex items-center border-gray-200 bg-white border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    class="w-16 h-16 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="/Green-check-mark-icon-removebg-preview.png"
-                  />
+                  <span className="text-3xl mr-2">✅</span>
                   <div class="flex-grow">
                     <h2 class="text-gray-900 title-font font-medium">
                       Oil Level and Quality
@@ -315,11 +307,7 @@ export default function Home() {
               </div>
               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                 <div class="h-full flex items-center border-gray-200 bg-white border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    class="w-16 h-16 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="/Green-check-mark-icon-removebg-preview.png"
-                  />
+                  <span className="text-3xl mr-2">✅</span>
                   <div class="flex-grow">
                     <h2 class="text-gray-900 title-font font-medium">
                       Brake Fluid
@@ -329,11 +317,7 @@ export default function Home() {
               </div>
               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                 <div class="h-full flex items-center border-gray-200 bg-white border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    class="w-16 h-16 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="/Green-check-mark-icon-removebg-preview.png"
-                  />
+                  <span className="text-3xl mr-2">✅</span>
                   <div class="flex-grow">
                     <h2 class="text-gray-900 title-font font-medium">
                       Coolant Level
@@ -343,11 +327,7 @@ export default function Home() {
               </div>
               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                 <div class="h-full flex items-center border-gray-200 bg-white border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    class="w-16 h-16 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="/Green-check-mark-icon-removebg-preview.png"
-                  />
+                  <span className="text-3xl mr-2">✅</span>
                   <div class="flex-grow">
                     <h2 class="text-gray-900 title-font font-medium">
                       Lights and Indicators
@@ -357,11 +337,7 @@ export default function Home() {
               </div>
               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                 <div class="h-full flex items-center border-gray-200 bg-white border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    class="w-16 h-16 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="/Green-check-mark-icon-removebg-preview.png"
-                  />
+                  <span className="text-3xl mr-2">✅</span>
                   <div class="flex-grow">
                     <h2 class="text-gray-900 title-font font-medium">
                       Windshield Wipers and Washer Fluid
@@ -371,11 +347,7 @@ export default function Home() {
               </div>
               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                 <div class="h-full flex items-center border-gray-200 bg-white border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    class="w-16 h-16 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="/Green-check-mark-icon-removebg-preview.png"
-                  />
+                  <span className="text-3xl mr-2">✅</span>
                   <div class="flex-grow">
                     <h2 class="text-gray-900 title-font font-medium">
                       Battery Health
@@ -385,11 +357,7 @@ export default function Home() {
               </div>
               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                 <div class="h-full flex items-center border-gray-200 bg-white border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    class="w-16 h-16 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="/Green-check-mark-icon-removebg-preview.png"
-                  />
+                  <span className="text-3xl mr-2">✅</span>
                   <div class="flex-grow">
                     <h2 class="text-gray-900 title-font font-medium">
                       Air Filter
@@ -399,11 +367,7 @@ export default function Home() {
               </div>
               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                 <div class="h-full flex items-center border-gray-200 bg-white border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    class="w-16 h-16 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="/Green-check-mark-icon-removebg-preview.png"
-                  />
+                  <span className="text-3xl mr-2">✅</span>
                   <div class="flex-grow">
                     <h2 class="text-gray-900 title-font font-medium">
                       Exhaust System
