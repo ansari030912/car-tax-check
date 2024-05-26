@@ -4,7 +4,7 @@ import React from "react";
 const NavBar = () => {
   return (
     <section class="px-4 pt-6 pb-8 container m-auto lg:px-18 lg:pb-18">
-      <nav class="relative bg-white mb-6 px-10 lg:pl-20 py-7 lg:py-4 rounded-2xl">
+      <nav class="relative bg-gray-50 mb-6 px-10 lg:pl-20 py-7 lg:py-4 rounded-2xl">
         <div class="flex items-center justify-between">
           <div class="flex items-center justify-between w-full lg:w-auto">
             <a class="navbar-burger order-1 lg:order-none lg:pr-9" href="#">

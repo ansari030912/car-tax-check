@@ -96,7 +96,7 @@ const Tool = () => {
         <div className="w-full md:w-auto p-2.5">
           <div className="block">
             <button
-              className="py-4 px-6 w-full text-white font-semibold border border-indigo-700 rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-700 transition ease-in-out duration-200"
+              className="py-4 px-6 w-full text-white font-semibold border border-indigo-900 rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-900 hover:bg-indigo-800 transition ease-in-out duration-200"
               type="button"
               onClick={handleButtonClick}
             >

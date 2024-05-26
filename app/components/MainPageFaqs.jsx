@@ -6,13 +6,10 @@ const MainPageFaqs = () => {
       <div className="px-4">
         <div className="text-center mb-20">
           <h2 className="font-heading text-6xl text-gray-700 mb-6">FAQ</h2>
-          <p className="text-gray-700 opacity-80">
-            Here you will find the answers to the frequently asked questions.
-          </p>
         </div>
-        <div className="max-w-5xl mx-auto">
+        <div className="w-full">
           {/* Existing FAQs */}
-          <div className="pt-6 pr-4 border-t-2 border-lime-500 mb-14">
+          <div className="pt-6 pr-4 border-t-2 border-yellow-600 mb-14">
             <h3 className="text-lg font-medium text-gray-700 mb-4">
               How to use a free car check?
             </h3>
@@ -22,9 +19,8 @@ const MainPageFaqs = () => {
               history.
             </p>
           </div>
-
           {/* New FAQs */}
-          <div className="pt-6 pr-4 border-t-2 border-lime-500 mb-14">
+          <div className="pt-6 pr-4 border-t-2 border-yellow-600 mb-14">
             <h3 className="text-lg font-medium text-gray-700 mb-4">
               How to check MOT history of a car?
             </h3>
@@ -34,7 +30,7 @@ const MainPageFaqs = () => {
               and failure reasons in a detailed free car check report.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-lime-500 mb-14">
+          <div className="pt-6 pr-4 border-t-2 border-yellow-600 mb-14">
             <h3 className="text-lg font-medium text-gray-700 mb-4">
               When is my vehicle tax due?
             </h3>
@@ -44,7 +40,7 @@ const MainPageFaqs = () => {
               and MOT expiry dates.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-lime-500 mb-14">
+          <div className="pt-6 pr-4 border-t-2 border-yellow-600 mb-14">
             <h3 className="text-lg font-medium text-gray-700 mb-4">
               Why should I use a car history check?
             </h3>
@@ -57,7 +53,7 @@ const MainPageFaqs = () => {
               damage photos.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-lime-500 mb-14">
+          <div className="pt-6 pr-4 border-t-2 border-yellow-600 mb-14">
             <h3 className="text-lg font-medium text-gray-700 mb-4">
               Why does my car details are incorrect?
             </h3>
@@ -68,7 +64,7 @@ const MainPageFaqs = () => {
               to wait for 5 to 6 days and check your tax and MOT status again.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-lime-500 mb-14">
+          <div className="pt-6 pr-4 border-t-2 border-yellow-600 mb-14">
             <h3 className="text-lg font-medium text-gray-700 mb-4">
               Do you offer a free car check?
             </h3>
@@ -78,7 +74,7 @@ const MainPageFaqs = () => {
               report.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-lime-500 mb-14">
+          <div className="pt-6 pr-4 border-t-2 border-yellow-600 mb-14">
             <h3 className="text-lg font-medium text-gray-700 mb-4">
               How can I utilise a free car check to discover any safety recalls
               associated with a vehicle?
@@ -91,7 +87,7 @@ const MainPageFaqs = () => {
               sure.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-lime-500">
+          <div className="pt-6 pr-4 border-t-2 border-yellow-600">
             <h3 className="text-lg font-medium text-gray-700 mb-4">
               What is included in a free car check service?
             </h3>
@@ -113,7 +109,7 @@ const MainPageFaqs = () => {
               </ul>
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-lime-500 py-4">
+          <div className="pt-6 pr-4 border-t-2 border-yellow-600 py-4">
             <h3 className="text-lg font-medium text-gray-700 mb-4">
               How authentic is the free information provided by a free car check
               service?
@@ -125,7 +121,7 @@ const MainPageFaqs = () => {
               car history check service.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-lime-500 py-4">
+          <div className="pt-6 pr-4 border-t-2 border-yellow-600 py-4">
             <h3 className="text-lg font-medium text-gray-700 mb-4">
               How to do a DVLA car history check?
             </h3>
@@ -134,7 +130,7 @@ const MainPageFaqs = () => {
               free MOT check and vehicle history report.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-lime-500 py-4">
+          <div className="pt-6 pr-4 border-t-2 border-yellow-600 py-4">
             <h3 className="text-lg font-medium text-gray-700 mb-4">
               Is Car Analytics vehicle check service free?
             </h3>
@@ -145,7 +141,7 @@ const MainPageFaqs = () => {
               £1.99 for the basic check and £4.99 for the full report.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-lime-500">
+          <div className="pt-6 pr-4 border-t-2 border-yellow-600">
             <h3 className="text-lg font-medium text-gray-700 mb-4">
               Is it safe to provide my vehicle information online?
             </h3>
