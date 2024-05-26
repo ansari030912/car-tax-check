@@ -27,10 +27,10 @@ export default function Home() {
                         <div class="mb-5 block">
                           <div class="flex flex-wrap mb-4 -m-2">
                             <div class="w-auto p-2">
-                              <img src="/3.png" alt="" height={80} width={80} />
+                              <img src="/3.png" alt="" height={60} width={60} />
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-3xl mt-4 leading-normal">
+                              <h4 class="text-gray-700 text-2xl mt-1 leading-normal">
                                 Vehicle History Check
                               </h4>
                             </div>
@@ -52,10 +52,10 @@ export default function Home() {
                         <div class="mb-5 block">
                           <div class="flex flex-wrap mb-4 -m-2">
                             <div class="w-auto p-2">
-                              <img src="/3.png" alt="" height={80} width={80} />
+                              <img src="/3.png" alt="" height={60} width={60} />
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-3xl mt-4 leading-normal">
+                              <h4 class="text-gray-700 text-2xl mt-1 leading-normal">
                                 MOT History Check
                               </h4>
                             </div>
@@ -80,10 +80,10 @@ export default function Home() {
                         <div class="mb-5 block">
                           <div class="flex flex-wrap mb-4 -m-2">
                             <div class="w-auto p-2">
-                              <img src="/3.png" alt="" height={80} width={80} />
+                              <img src="/3.png" alt="" height={60} width={60} />
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-3xl mt-4 leading-normal">
+                              <h4 class="text-gray-700 text-2xl mt-1 leading-normal">
                                 Outstanding Finance
                               </h4>
                             </div>
@@ -109,10 +109,10 @@ export default function Home() {
                         <div class="mb-5 block">
                           <div class="flex flex-wrap mb-4 -m-2">
                             <div class="w-auto p-2">
-                              <img src="/3.png" alt="" height={80} width={80} />
+                              <img src="/3.png" alt="" height={60} width={60} />
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-3xl mt-4 leading-normal">
+                              <h4 class="text-gray-700 text-2xl mt-1 leading-normal">
                                 DVLA Tax and MOT History
                               </h4>
                             </div>
@@ -138,10 +138,10 @@ export default function Home() {
                         <div class="mb-5 block">
                           <div class="flex flex-wrap mb-4 -m-2">
                             <div class="w-auto p-2">
-                              <img src="/3.png" alt="" height={80} width={80} />
+                              <img src="/3.png" alt="" height={60} width={60} />
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-3xl mt-4 leading-normal">
+                              <h4 class="text-gray-700 text-2xl mt-1 leading-normal">
                                 Stolen Check History
                               </h4>
                             </div>
@@ -165,10 +165,10 @@ export default function Home() {
                         <div class="mb-5 block">
                           <div class="flex flex-wrap mb-4 -m-2">
                             <div class="w-auto p-2">
-                              <img src="/3.png" alt="" height={80} width={80} />
+                              <img src="/3.png" alt="" height={60} width={60} />
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-3xl mt-4 leading-normal">
+                              <h4 class="text-gray-700 text-2xl mt-1 leading-normal">
                                 Salvage Check
                               </h4>
                             </div>
@@ -190,10 +190,10 @@ export default function Home() {
                         <div class="mb-5 block">
                           <div class="flex flex-wrap mb-4 -m-2">
                             <div class="w-auto p-2">
-                              <img src="/3.png" alt="" height={80} width={80} />
+                              <img src="/3.png" alt="" height={60} width={60} />
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-3xl mt-4 leading-normal">
+                              <h4 class="text-gray-700 text-2xl mt-1 leading-normal">
                                 Owner History
                               </h4>
                             </div>
@@ -214,10 +214,10 @@ export default function Home() {
                         <div class="mb-5 block">
                           <div class="flex flex-wrap mb-4 -m-2">
                             <div class="w-auto p-2">
-                              <img src="/3.png" alt="" height={80} width={80} />
+                              <img src="/3.png" alt="" height={60} width={60} />
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-3xl mt-4 leading-normal">
+                              <h4 class="text-gray-700 text-2xl mt-1 leading-normal">
                                 Number Plate Check
                               </h4>
                             </div>
