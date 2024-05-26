@@ -3,7 +3,7 @@ import React from "react";
 
 const ResultOfNumberPlateCheck = async ({ params }) => {
   try {
-    const response = await axios.post("http://localhost:3000/api/car/", {
+    const response = await axios.post("https://check-tax.netlify.app/api/car/", {
       Number: params.car_number,
     });
     const data = response.data;
