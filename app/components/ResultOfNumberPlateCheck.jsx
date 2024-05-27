@@ -125,91 +125,91 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
             </div>
             <div className="w-full lg:w-1/2 p-4">
               <section>
-                <div class="container mx-auto">
-                  <div class=" bg-white shadow rounded">
-                    <div class="flex px-6 bg-indigo-900 pb-4 pt-4 border-b">
-                      <h3 class="text-xl text-white font-bold">
+                <div className="container mx-auto">
+                  <div className=" bg-white shadow rounded">
+                    <div className="flex px-6 bg-indigo-900 pb-4 pt-4 border-b">
+                      <h3 className="text-xl text-white font-bold">
                         Engine & fuel consumption
                       </h3>
                     </div>
-                    <div class="p-4 overflow-x-auto">
-                      <table class="table-auto w-full">
+                    <div className="p-4 overflow-x-auto">
+                      <table className="table-auto w-full">
                         <tbody>
-                          <tr class="text-base bg-gray-50">
-                            <td class="py-5 px-6 font-medium">Power</td>
+                          <tr className="text-base bg-gray-50">
+                            <td className="py-5 px-6 font-medium">Power</td>
 
                             <td className="text-right pr-3">
-                              <span class="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
+                              <span className="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
                                 {data?.engineInfo?.power}
                               </span>
                             </td>
                           </tr>
-                          <tr class="text-base">
-                            <td class="py-5 px-6 font-medium">Max. torque</td>
+                          <tr className="text-base">
+                            <td className="py-5 px-6 font-medium">Max. torque</td>
 
-                            {/* <td class="font-medium">
+                            {/* <td className="font-medium">
                               {data?.generalInfo?.maxTorque}
                             </td> */}
                             <td className="text-right pr-3">
-                              <span class="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
+                              <span className="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
                                 {data?.engineInfo?.maxTorque}
                               </span>
                             </td>
                           </tr>
-                          <tr class="text-base bg-gray-50">
-                            <td class="py-5 px-6 font-medium">
+                          <tr className="text-base bg-gray-50">
+                            <td className="py-5 px-6 font-medium">
                               Engine capacity
                             </td>
 
                             <td className="text-right pr-3">
-                              <span class="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
+                              <span className="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
                                 {data?.engineInfo?.engineCapacity}
                               </span>
                             </td>
                           </tr>
-                          <tr class="text-base">
-                            <td class="py-5 px-6 font-medium">Cylinders</td>
+                          <tr className="text-base">
+                            <td className="py-5 px-6 font-medium">Cylinders</td>
 
                             <td className="text-right pr-3">
-                              <span class="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
+                              <span className="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
                                 {data?.engineInfo?.cylinders}
                               </span>
                             </td>
                           </tr>
-                          <tr class="text-base bg-gray-50">
-                            <td class="py-5 px-6 font-medium">Fuel type</td>
+                          <tr className="text-base bg-gray-50">
+                            <td className="py-5 px-6 font-medium">Fuel type</td>
 
                             <td className="text-right pr-3">
-                              <span class="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
+                              <span className="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
                                 {data?.engineInfo?.fuelType}
                               </span>
                             </td>
                           </tr>
-                          <tr class="text-base">
-                            <td class="py-5 px-6 font-medium">
+                          <tr className="text-base">
+                            <td className="py-5 px-6 font-medium">
                               Consumption combined
                             </td>
 
                             <td className="text-right pr-3">
-                              <span class="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
+                              <span className="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
                                 {data?.engineInfo?.consumptionCombined}
                               </span>
                             </td>
                           </tr>
-                          <tr class="text-base bg-gray-50">
-                            <td class="py-5 px-6 font-medium">CO2 emission</td>
+                          <tr className="text-base bg-gray-50">
+                            <td className="py-5 px-6 font-medium">CO2 emission</td>
 
                             <td className="text-right pr-3">
-                              <span class="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
+                              <span className="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
                                 {data?.engineInfo?.co2Emission}
                               </span>
                             </td>
                           </tr>
-                          <tr class="text-base ">
-                            <td class="py-5 px-6 font-medium">CO2 label</td>
+                          <tr className="text-base ">
+                            <td className="py-5 px-6 font-medium">CO2 label</td>
 
                             <td className="text-right pr-3">
-                              <span class="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
+                              <span className="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
                                 {data?.engineInfo?.co2Label}
                               </span>
                             </td>

@@ -3,11 +3,11 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <section class="px-4 pt-6 pb-8 container m-auto lg:px-18 lg:pb-18">
-      <nav class="relative bg-gray-50 mb-6 px-10 lg:pl-20 py-7 lg:py-4 rounded-2xl">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center justify-between w-full lg:w-auto">
-            <a class="navbar-burger order-1 lg:order-none lg:pr-9" href="#">
+    <section className="px-4 pt-6 pb-8 container m-auto lg:px-18 lg:pb-18">
+      <nav className="relative bg-gray-50 mb-6 px-10 lg:pl-20 py-7 lg:py-4 rounded-2xl">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between w-full lg:w-auto">
+            <a className="navbar-burger order-1 lg:order-none lg:pr-9" href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="34"
@@ -32,23 +32,23 @@ const NavBar = () => {
                 </defs>
               </svg>
             </a>
-            <a class="pr-4 lg:pr-0" href="#">
+            <a className="pr-4 lg:pr-0" href="#">
               <img
-                class="h-20"
+                className="h-20"
                 src="/1.png"
                 alt=""
               />
             </a>
           </div>
-          <div class="hidden lg:flex items-center gap-5">
+          <div className="hidden lg:flex items-center gap-5">
             <a
-              class="inline-flex justify-center items-center text-center h-16 p-5 font-semibold tracking-tight text-lg focus:text-neutral-900 bg-transparent hover:bg-transparent focus:bg-transparent border border-transparent rounded-lg focus:ring-4 focus:ring-transparent transition duration-200"
+              className="inline-flex justify-center items-center text-center h-16 p-5 font-semibold tracking-tight text-lg focus:text-neutral-900 bg-transparent hover:bg-transparent focus:bg-transparent border border-transparent rounded-lg focus:ring-4 focus:ring-transparent transition duration-200"
               href="#"
             >
               Help
             </a>
             <a
-              class="inline-flex justify-center items-center text-center h-16 p-5 font-semibold tracking-tight text-xl hover:text-white focus:text-white bg-transparent hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200"
+              className="inline-flex justify-center items-center text-center h-16 p-5 font-semibold tracking-tight text-xl hover:text-white focus:text-white bg-transparent hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200"
               href="#"
             >
               Sign up free
@@ -56,19 +56,19 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
-      <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-xs z-50">
-        <div class="navbar-backdrop fixed inset-0 bg-black opacity-20"></div>
-        <nav class="relative p-8 w-full h-full bg-white overflow-y-auto">
-          <div class="flex flex-col justify-between h-full">
-            <div class="flex items-center justify-between mb-16">
-              <a class="pr-4" href="#">
+      <div className="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-xs z-50">
+        <div className="navbar-backdrop fixed inset-0 bg-black opacity-20"></div>
+        <nav className="relative p-8 w-full h-full bg-white overflow-y-auto">
+          <div className="flex flex-col justify-between h-full">
+            <div className="flex items-center justify-between mb-16">
+              <a className="pr-4" href="#">
                 <img
-                  class="h-10"
+                  className="h-10"
                   src="mirga-assets/images/logos/mirga-dark-logo3.svg"
                   alt=""
                 />
               </a>
-              <a class="navbar-close" href="#">
+              <a className="navbar-close" href="#">
                 <svg
                   width="24"
                   height="24"
@@ -86,15 +86,15 @@ const NavBar = () => {
                 </svg>
               </a>
             </div>
-            <div class="flex flex-col items-center gap-2">
+            <div className="flex flex-col items-center gap-2">
               <a
-                class="inline-flex justify-center items-center text-center w-full h-16 p-5 font-semibold tracking-tight text-lg focus:text-neutral-900 bg-transparent hover:bg-transparent focus:bg-transparent border border-transparent rounded-lg focus:ring-4 focus:ring-transparent transition duration-200"
+                className="inline-flex justify-center items-center text-center w-full h-16 p-5 font-semibold tracking-tight text-lg focus:text-neutral-900 bg-transparent hover:bg-transparent focus:bg-transparent border border-transparent rounded-lg focus:ring-4 focus:ring-transparent transition duration-200"
                 href="#"
               >
                 Login
               </a>
               <a
-                class="inline-flex justify-center items-center text-center w-full h-16 p-5 font-semibold tracking-tight text-xl hover:text-white focus:text-white bg-transparent hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200"
+                className="inline-flex justify-center items-center text-center w-full h-16 p-5 font-semibold tracking-tight text-xl hover:text-white focus:text-white bg-transparent hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200"
                 href="#"
               >
                 Sign up free
