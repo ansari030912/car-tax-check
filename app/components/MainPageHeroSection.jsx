@@ -9,10 +9,10 @@ const MainPageHeroSection = () => {
         <div class="container px-4 mx-auto">
           <div class="flex flex-wrap -m-8">
             <div class="w-full md:w-7/12 p-8">
-              <h1 class="mb-6 text-3xl md:text-5xl font-bold font-heading md:max-w-4xl leading-none">
+              <h1 class="mb-6 text-2xl md:text-4xl font-bold font-heading md:max-w-4xl leading-none">
                 Free Car Check
               </h1>
-              <h2 class="mb-6 text-xl text-gray-700 font-base md:max-w-md">
+              <h2 class="mb-6 text-base text-gray-700 font-base md:max-w-md">
                 Enter your vehicle&apos;s registration number for a free car
                 check
               </h2>

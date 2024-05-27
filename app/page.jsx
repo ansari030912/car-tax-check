@@ -14,7 +14,7 @@ export default function Home() {
                 <h2 class="mb-6 text-4xl font-heading text-center tracking-px-n leading-tight">
                   What You Will Get in Your Free Car Check Report?
                 </h2>
-                <h3 class="mb-16 text-xl font-base text-gray-700 font-heading text-center tracking-px-n leading-tight">
+                <h3 class="mb-16 text-base font-base text-gray-700 font-heading text-center tracking-px-n leading-tight">
                   With our vehicle check premium report, you will get, a car
                   history check, MOT history, basic vehicle information,
                   outstanding finance, stolen check and salvage history check
@@ -40,12 +40,12 @@ export default function Home() {
                               </svg>
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-2xl mt-2 leading-normal">
+                              <h4 class="text-gray-800 text-2xl mt-2 leading-normal">
                                 Vehicle History Check
                               </h4>
                             </div>
                           </div>
-                          <p class="text-xl px-4 font-base text-gray-700">
+                          <p class="text-base px-4 font-base text-gray-700">
                             We are offering a free car history check service in
                             the UK. It is recommended to check a car&apos;s
                             history before buying a used car. Fortunately, with
@@ -75,17 +75,17 @@ export default function Home() {
                               </svg>
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-2xl mt-2 leading-normal">
+                              <h4 class="text-gray-800 text-2xl mt-2 leading-normal">
                                 MOT History Check
                               </h4>
                             </div>
                           </div>
-                          <p class="text-xl mb-3 px-4 font-base text-gray-700">
+                          <p class="text-base mb-3 px-4 font-base text-gray-700">
                             MOT history is another test that you should conduct
                             when buying a used car. A vehicle over 3 years of
                             age is a must to pass the MOT check test.
                           </p>
-                          <p class="text-xl px-4 font-base text-gray-700">
+                          <p class="text-base px-4 font-base text-gray-700">
                             You only need to enter your vehicle registration
                             number and click on the &quot;Free Car Check&quot;
                             button to get the vehicle&apos;s MOT history.
@@ -118,17 +118,17 @@ export default function Home() {
                               </svg>
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-2xl mt-2 leading-normal">
+                              <h4 class="text-gray-800 text-2xl mt-2 leading-normal">
                                 Outstanding Finance
                               </h4>
                             </div>
                           </div>
-                          <p class="text-xl mb-3 px-4 font-base text-gray-700">
+                          <p class="text-base mb-3 px-4 font-base text-gray-700">
                             It is very common to buy a car through a finance
                             company and it has an unpaid loan or financial
                             agreement still in place.
                           </p>
-                          <p class="text-xl px-4 font-base text-gray-700">
+                          <p class="text-base px-4 font-base text-gray-700">
                             But when you are paying for a vehicle that has an
                             outstanding finance, you will get in trouble for
                             sure. However, with the help of a free car check,
@@ -164,17 +164,17 @@ export default function Home() {
                               </svg>
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-2xl mt-2 leading-normal">
+                              <h4 class="text-gray-800 text-2xl mt-2 leading-normal">
                                 DVLA Tax and MOT History
                               </h4>
                             </div>
                           </div>
-                          <p class="text-xl mb-3 px-4 font-base text-gray-700">
+                          <p class="text-base mb-3 px-4 font-base text-gray-700">
                             Enter your vehicle identification number to check if
                             your vehicle has an unpaid Driver and Vehicle
                             Licensing Agency (DVLA) tax.
                           </p>
-                          <p class="text-xl px-4 font-base text-gray-700">
+                          <p class="text-base px-4 font-base text-gray-700">
                             With our free vehicle enquiry, you can check any
                             vehicle data in no time. You will never regret
                             buying a car with a hidden history and hidden
@@ -203,17 +203,17 @@ export default function Home() {
                               </svg>
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-2xl mt-2 leading-normal">
+                              <h4 class="text-gray-800 text-2xl mt-2 leading-normal">
                                 Stolen Check History
                               </h4>
                             </div>
                           </div>
-                          <p class="text-xl mb-3 px-4 font-base text-gray-700">
+                          <p class="text-base mb-3 px-4 font-base text-gray-700">
                             Ensure your peace of mind with our free stolen
                             inquiry service. It verifies that your potential
                             vehicle purchase has not been reported as stolen.
                           </p>
-                          <p class="text-xl px-4 font-base text-gray-700">
+                          <p class="text-base px-4 font-base text-gray-700">
                             Avoid the risk of losing your new car by confirming
                             its legal status before you buy.
                           </p>
@@ -240,12 +240,12 @@ export default function Home() {
                               </svg>
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-2xl mt-2 leading-normal">
+                              <h4 class="text-gray-800 text-2xl mt-2 leading-normal">
                                 Salvage Check
                               </h4>
                             </div>
                           </div>
-                          <p class="text-xl px-4 font-base text-gray-700">
+                          <p class="text-base px-4 font-base text-gray-700">
                             Our complimentary salvage check service helps you
                             identify if a vehicle has previously been declared a
                             total loss by insurers. Protect yourself from
@@ -284,12 +284,12 @@ export default function Home() {
                               </svg>
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-2xl mt-2 leading-normal">
+                              <h4 class="text-gray-800 text-2xl mt-2 leading-normal">
                                 Owner History
                               </h4>
                             </div>
                           </div>
-                          <p class="text-xl px-4 font-base text-gray-700">
+                          <p class="text-base px-4 font-base text-gray-700">
                             With our free owner history service, you can uncover
                             the number of previous owners and gain insights into
                             the vehicle&apos;s past. Make an informed decision
@@ -318,23 +318,23 @@ export default function Home() {
                               </svg>
                             </div>
                             <div class="w-auto p-2">
-                              <h4 class="text-gray-700 text-2xl mt-2 leading-normal">
+                              <h4 class="text-gray-800 text-2xl mt-2 leading-normal">
                                 Number Plate Check
                               </h4>
                             </div>
                           </div>
-                          <p class="text-xl mb-3 px-4 font-base text-gray-700">
+                          <p class="text-base mb-3 px-4 font-base text-gray-700">
                             It is a wise habit to verify the number plate of a
                             car before you finalise a deal with a car seller. A
                             used vehicle can contain too many hidden things that
                             you should check for sure.
                           </p>
-                          <p class="text-xl mb-3 px-4 font-base text-gray-700">
+                          <p class="text-base mb-3 px-4 font-base text-gray-700">
                             Use our free number plate check service to verify
                             crucial details about a vehicle, including its
                             registration, make, model, and year of manufacture.
                           </p>
-                          <p class="text-xl px-4 font-base text-gray-700">
+                          <p class="text-base px-4 font-base text-gray-700">
                             Ensure the number plate matches the vehicle&apos;s
                             official records for a secure purchase.
                           </p>
@@ -354,20 +354,20 @@ export default function Home() {
               <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800">
                 How Our Free Car Check Works?
               </h2>
-              <p class="lg:w-12/12 py-3 leading-relaxed text-xl text-gray-700">
+              <p class="lg:w-12/12 py-3 leading-relaxed text-base text-gray-700">
                 To get started with our comprehensive vehicle check service,
                 simply enter your car registration number in the designated
                 field at the top of our webpage. Once you submit the
                 registration number, our system will instantly access detailed
                 information about your car, sourced directly from the DVLA.
               </p>
-              <p class="lg:w-12/12 py-3 leading-relaxed text-xl text-gray-700">
+              <p class="lg:w-12/12 py-3 leading-relaxed text-base text-gray-700">
                 With a database of over 40 million records, we offer
                 unparalleled coverage across the UK. Our service features
                 detailed mileage analysis checks, carefully scrutinising various
                 records to guarantee precise and trustworthy information.
               </p>
-              <p class="lg:w-12/12 py-3 leading-relaxed text-xl text-gray-700">
+              <p class="lg:w-12/12 py-3 leading-relaxed text-base text-gray-700">
                 This thorough approach helps you uncover any discrepancies,
                 offering you peace of mind and confidence in the vehicle’s
                 history and condition. Whether you&apos;re verifying ownership
@@ -379,7 +379,7 @@ export default function Home() {
               <h3 class="text-2xl font-medium title-font mb-4 text-gray-800">
                 DIY Car Checks
               </h3>
-              <p class="lg:w-12/12 pt-3 leading-relaxed text-xl text-gray-700">
+              <p class="lg:w-12/12 pt-3 leading-relaxed text-base text-gray-700">
                 DIY Car Checks Besides the registration and MOT expiry dates,
                 there are some vehicle checks that you can perform at home. Here
                 are some examples:
