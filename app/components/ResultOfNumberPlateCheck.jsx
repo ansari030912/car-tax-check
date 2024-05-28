@@ -3,7 +3,7 @@ import axios from "axios";
 import React from "react";
 
 const ResultOfNumberPlateCheck = async ({ params }) => {
-  const response = await axios.post("https://check-tax.netlify.app//api/car/", {
+  const response = await axios.post("https://check-tax.netlify.app/api/car/", {
     Number: params.car_number,
   });
   const today = new Date();
@@ -145,7 +145,9 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                             </td>
                           </tr>
                           <tr className="text-base">
-                            <td className="py-5 px-6 font-medium">Max. torque</td>
+                            <td className="py-5 px-6 font-medium">
+                              Max. torque
+                            </td>
 
                             {/* <td className="font-medium">
                               {data?.generalInfo?.maxTorque}
@@ -197,7 +199,9 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                             </td>
                           </tr>
                           <tr className="text-base bg-gray-50">
-                            <td className="py-5 px-6 font-medium">CO2 emission</td>
+                            <td className="py-5 px-6 font-medium">
+                              CO2 emission
+                            </td>
 
                             <td className="text-right pr-3">
                               <span className="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
@@ -370,7 +374,8 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                         Untaxed
                       </Typography>
                       <Typography className="text-xl font-bold text-white">
-                        Tax expired : {data?.taxCalculation.motExpiryDate}
+                        Tax expired :{" "}
+                        {data?.taxCalculation.taxStatus.split(" at ")[1]}
                       </Typography>
                     </Card>
                   </Grid>
@@ -390,21 +395,20 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                 </Grid>
                 <table className="w-full text-sm text-left text-gray-900">
                   <tbody>
-                    {/* Untaxed Row */}
-                    <tr className="bg-gray-50">
+                    {/* <tr className="bg-gray-50">
                       <td className="px-6 py-4 font-medium">Untaxed</td>
                       <td className="px-6 py-4">
                         Tax expired:{" "}
                         {data?.taxCalculation.taxStatus.split(" at ")[1]}
                       </td>
                     </tr>
-                    {/* MOT Row */}
+                    
                     <tr className="bg-white">
                       <td className="px-6 py-4 font-medium">MOT</td>
                       <td className="px-6 py-4">
                         Expires: {data?.taxCalculation.motExpiryDate}
                       </td>
-                    </tr>
+                    </tr> */}
                     {/* Tax Status Row */}
                     <tr className="bg-gray-50">
                       <td className="px-6 py-4 font-medium">Tax status</td>
