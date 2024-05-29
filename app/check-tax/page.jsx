@@ -1,15 +1,25 @@
+"use client";
+import { useEffect, useState } from "react";
+// import ResultOfNumberPlateCheck from "../components/ResultOfNumberPlateCheck";
 import { Card, Grid, Typography } from "@mui/material";
-import axios from "axios";
-import React from "react";
 
-const ResultOfNumberPlateCheck = async ({ params }) => {
-  const response = await axios.post("https://check-tax.netlify.app/api/car/", {
-    Number: params.car_number,
-  });
+const Page = () => {
+  const [data, setData] = useState(null);
+  const [number, setNumber] = useState(null);
+  useEffect(() => {
+    const carData = localStorage.getItem("carData");
+    if (carData) {
+      setData(JSON.parse(carData));
+    }
+    const numberPlate = localStorage.getItem("numberPlate");
+    if (carData) {
+      setNumber(JSON.parse(numberPlate));
+    }
+  }, []);
   const today = new Date();
-  console.log(today.toLocaleDateString()); // Outputs the date in local format
-
-  const data = response.data;
+  const formattedDate =
+    today.getDate() + "/" + (today.getMonth() + 1) + "/" + today.getFullYear();
+  console.log(formattedDate);
   return (
     <>
       <section className="pt-6 pb-2">
@@ -22,7 +32,7 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
               <div className="p-6 mb-8 bg-indigo-900 shadow rounded">
                 <div className="flex mb-3 items-center justify-between">
                   <h3 className="text-gray-600 border-2 border-gray-800 text-2xl px-4 py-2 font-bold rounded-lg bg-yellow-400">
-                    {params?.car_number}
+                    {number}
                   </h3>
                 </div>
                 <div className="flex items-center mb-3">
@@ -37,7 +47,7 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                   <div className="absolute top-0 left-0 w-4/6 h-full bg-yellow-400 rounded"></div>
                 </div>
                 <p className="text-xl text-right text-gray-50">
-                  {today.toLocaleDateString()}
+                  {formattedDate}
                 </p>
               </div>
               <div className="bg-white rounded">
@@ -120,7 +130,6 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                     </div>
                   </div>
                 </div>
-                {/* Placeholder for charts or additional content */}
               </div>
             </div>
             <div className="w-full lg:w-1/2 p-4">
@@ -148,10 +157,6 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                             <td className="py-5 px-6 font-medium">
                               Max. torque
                             </td>
-
-                            {/* <td className="font-medium">
-                              {data?.generalInfo?.maxTorque}
-                            </td> */}
                             <td className="text-right pr-3">
                               <span className="inline-block py-1 px-4 text-white bg-green-500 rounded-full">
                                 {data?.engineInfo?.maxTorque}
@@ -256,7 +261,6 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                             </tr>
                           </thead>
                           <tbody>
-                            {/* Date/Identifier */}
                             <tr className="bg-gray-50 border-b">
                               <td className="px-6 py-4 font-medium text-gray-900">
                                 Date/Identifier
@@ -267,7 +271,7 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                                   "N/A"}
                               </td>
                             </tr>
-                            {/* MOT Passed */}
+
                             {item.motPassed && (
                               <tr className="bg-white border-b">
                                 <td className="px-6 py-4 font-medium">
@@ -276,7 +280,7 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                                 <td className="px-6 py-4">{item.motPassed}</td>
                               </tr>
                             )}
-                            {/* MOT Test Number */}
+
                             {item.motTestNumber && (
                               <tr className="bg-white border-b">
                                 <td className="px-6 py-4 font-medium">
@@ -287,7 +291,7 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                                 </td>
                               </tr>
                             )}
-                            {/* Result */}
+
                             {item.result && (
                               <tr className="bg-gray-50 border-b">
                                 <td className="px-6 py-4 font-medium">
@@ -296,7 +300,6 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                                 <td className="px-6 py-4">{item.result}</td>
                               </tr>
                             )}
-                            {/* Next Expiry Date */}
                             {item.nextExpiryDate && (
                               <tr className="bg-white border-b">
                                 <td className="px-6 py-4 font-medium">
@@ -307,7 +310,7 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                                 </td>
                               </tr>
                             )}
-                            {/* Failed MOT Tests */}
+
                             {item.failedMotTests && (
                               <tr className="bg-gray-50 border-b">
                                 <td className="px-6 py-4 font-medium">
@@ -318,7 +321,7 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                                 </td>
                               </tr>
                             )}
-                            {/* Total Advice Items */}
+
                             {item.totalAdviceItems && (
                               <tr className="bg-white border-b">
                                 <td className="px-6 py-4 font-medium">
@@ -329,7 +332,7 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                                 </td>
                               </tr>
                             )}
-                            {/* Total Items Failed */}
+
                             {item.totalItemsFailed && (
                               <tr className="bg-gray-50 border-b">
                                 <td className="px-6 py-4 font-medium">
@@ -340,7 +343,7 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                                 </td>
                               </tr>
                             )}
-                            {/* Additional Notes */}
+
                             {item[""] && (
                               <tr className="bg-white border-b">
                                 <td className="px-6 py-4 font-medium">
@@ -395,55 +398,26 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
                 </Grid>
                 <table className="w-full text-sm text-left text-gray-900">
                   <tbody>
-                    {/* <tr className="bg-gray-50">
-                      <td className="px-6 py-4 font-medium">Untaxed</td>
-                      <td className="px-6 py-4">
-                        Tax expired:{" "}
-                        {data?.taxCalculation.taxStatus.split(" at ")[1]}
-                      </td>
-                    </tr>
-                    
-                    <tr className="bg-white">
-                      <td className="px-6 py-4 font-medium">MOT</td>
-                      <td className="px-6 py-4">
-                        Expires: {data?.taxCalculation.motExpiryDate}
-                      </td>
-                    </tr> */}
-                    {/* Tax Status Row */}
                     <tr className="bg-gray-50">
                       <td className="px-6 py-4 font-medium">Tax status</td>
                       <td className="px-6 py-4">
                         {data?.taxCalculation.taxStatus}
                       </td>
                     </tr>
-                    {/* Days Left Row */}
+
                     <tr className="bg-white">
                       <td className="px-6 py-4 font-medium">Days left</td>
                       <td className="px-6 py-4">
                         {data?.taxCalculation.daysLeft}
                       </td>
                     </tr>
-                    {/* MOT Expiry Date Row */}
+
                     <tr className="bg-gray-50">
                       <td className="px-6 py-4 font-medium">MOT expiry date</td>
                       <td className="px-6 py-4">
                         {data?.taxCalculation.motExpiryDate}
                       </td>
                     </tr>
-                    {/* Full MOT History Row
-                    <tr className="bg-white">
-                      <td className="px-6 py-4 font-medium">
-                        Full MOT history
-                      </td>
-                      <td className="px-6 py-4">
-                        <a
-                          href="/mot-history"
-                          className="text-blue-500 hover:text-blue-600"
-                        >
-                          See MOT history
-                        </a>
-                      </td>
-                    </tr> */}
                   </tbody>
                 </table>
               </div>
@@ -455,4 +429,4 @@ const ResultOfNumberPlateCheck = async ({ params }) => {
   );
 };
 
-export default ResultOfNumberPlateCheck;
+export default Page;

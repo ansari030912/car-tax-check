@@ -1,7 +1,8 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
+/* eslint-disable @next/next/no-img-element */
+import axios from "axios";
 import { useRouter } from "next/navigation";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Tool = () => {
   const [regNum, setRegNum] = useState("");
@@ -13,11 +14,13 @@ const Tool = () => {
 
   const handleButtonClick = async () => {
     try {
-      const response = await axios.post(
-        `https://services98767.herokuapp.com/euro/eurostatus/${regNum}`
-      );
+      const response = await axios.post("http://localhost:3000/api/car/", {
+        Number: regNum,
+      });
       if (response.status === 200) {
-        router.push(`/cardetails/${regNum}`);
+        localStorage.setItem("carData", JSON.stringify(response.data));
+        localStorage.setItem("numberPlate", JSON.stringify(regNum));
+        router.push(`/check-tax`);
       } else {
         alert("Error: Unable to fetch data");
       }
