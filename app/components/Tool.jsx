@@ -14,7 +14,7 @@ const Tool = () => {
 
   const handleButtonClick = async () => {
     try {
-      const response = await axios.post("http://localhost:3000/api/car/", {
+      const response = await axios.post("https://check-tax.netlify.app/api/car/", {
         Number: regNum,
       });
       if (response.status === 200) {
