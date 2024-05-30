@@ -25,12 +25,12 @@ export default function Home() {
                     <div className="p-6 h-full bg-gray-50 bg-opacity-60 border rounded-4xl">
                       <div className="flex flex-col justify-between h-full">
                         <div className="mb-5 block">
-                          <div className="flex flex-wrap mb-4 -m-2">
+                          <div className="flex flex-nowrap mb-4 -m-2">
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                width="3em"
-                                height="3em"
+                                width="2em"
+                                height="2em"
                                 viewBox="0 0 16 16"
                               >
                                 <path
@@ -40,7 +40,7 @@ export default function Home() {
                               </svg>
                             </div>
                             <div className="w-auto p-2">
-                              <h4 className="text-gray-800 text-2xl mt-2 leading-normal">
+                              <h4 className="text-gray-800 text-2xl leading-normal">
                                 Vehicle History Check
                               </h4>
                             </div>
@@ -64,8 +64,8 @@ export default function Home() {
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                width="3em"
-                                height="3em"
+                                width="2em"
+                                height="2em"
                                 viewBox="0 0 24 24"
                               >
                                 <path
@@ -75,7 +75,7 @@ export default function Home() {
                               </svg>
                             </div>
                             <div className="w-auto p-2">
-                              <h4 className="text-gray-800 text-2xl mt-2 leading-normal">
+                              <h4 className="text-gray-800 text-2xl leading-normal">
                                 MOT History Check
                               </h4>
                             </div>
@@ -102,8 +102,8 @@ export default function Home() {
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                width="3em"
-                                height="3em"
+                                width="2em"
+                                height="2em"
                                 viewBox="0 0 14 14"
                               >
                                 <g
@@ -118,7 +118,7 @@ export default function Home() {
                               </svg>
                             </div>
                             <div className="w-auto p-2">
-                              <h4 className="text-gray-800 text-2xl mt-2 leading-normal">
+                              <h4 className="text-gray-800 text-2xl leading-normal">
                                 Outstanding Finance
                               </h4>
                             </div>
@@ -146,8 +146,8 @@ export default function Home() {
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                width="3em"
-                                height="3em"
+                                width="2em"
+                                height="2em"
                                 viewBox="0 0 24 24"
                               >
                                 <g
@@ -164,7 +164,7 @@ export default function Home() {
                               </svg>
                             </div>
                             <div className="w-auto p-2">
-                              <h4 className="text-gray-800 text-2xl mt-2 leading-normal">
+                              <h4 className="text-gray-800 text-2xl leading-normal">
                                 DVLA Tax and MOT History
                               </h4>
                             </div>
@@ -192,8 +192,8 @@ export default function Home() {
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                width="3em"
-                                height="3em"
+                                width="2em"
+                                height="2em"
                                 viewBox="0 0 24 24"
                               >
                                 <path
@@ -203,7 +203,7 @@ export default function Home() {
                               </svg>
                             </div>
                             <div className="w-auto p-2">
-                              <h4 className="text-gray-800 text-2xl mt-2 leading-normal">
+                              <h4 className="text-gray-800 text-2xl leading-normal">
                                 Stolen Check History
                               </h4>
                             </div>
@@ -229,8 +229,8 @@ export default function Home() {
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                width="3em"
-                                height="3em"
+                                width="2em"
+                                height="2em"
                                 viewBox="0 0 32 32"
                               >
                                 <path
@@ -240,7 +240,7 @@ export default function Home() {
                               </svg>
                             </div>
                             <div className="w-auto p-2">
-                              <h4 className="text-gray-800 text-2xl mt-2 leading-normal">
+                              <h4 className="text-gray-800 text-2xl leading-normal">
                                 Salvage Check
                               </h4>
                             </div>
@@ -264,8 +264,8 @@ export default function Home() {
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                width="3em"
-                                height="3em"
+                                width="2em"
+                                height="2em"
                                 viewBox="0 0 24 24"
                               >
                                 <g
@@ -284,7 +284,7 @@ export default function Home() {
                               </svg>
                             </div>
                             <div className="w-auto p-2">
-                              <h4 className="text-gray-800 text-2xl mt-2 leading-normal">
+                              <h4 className="text-gray-800 text-2xl leading-normal">
                                 Owner History
                               </h4>
                             </div>
@@ -307,8 +307,8 @@ export default function Home() {
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                width="3em"
-                                height="3em"
+                                width="2em"
+                                height="2em"
                                 viewBox="0 0 32 32"
                               >
                                 <path
@@ -318,7 +318,7 @@ export default function Home() {
                               </svg>
                             </div>
                             <div className="w-auto p-2">
-                              <h4 className="text-gray-800 text-2xl mt-2 leading-normal">
+                              <h4 className="text-gray-800 text-2xl leading-normal">
                                 Number Plate Check
                               </h4>
                             </div>

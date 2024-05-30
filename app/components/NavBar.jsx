@@ -1,108 +1,171 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import React from "react";
 
 const NavBar = () => {
   return (
-    <section className="px-4 pt-6 pb-8 container m-auto lg:px-18 lg:pb-18">
-      <nav className="relative bg-gray-50 mb-6 px-10 lg:pl-20 py-7 lg:py-4 rounded-2xl">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center justify-between w-full lg:w-auto">
-            <a className="navbar-burger order-1 lg:order-none lg:pr-9" href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="34"
-                height="14"
-                viewbox="0 0 34 14"
-                fill="none"
-              >
-                <g clip-path="url(#clip0_231_4713)">
-                  <rect width="34" height="3" rx="1.5" fill="#19191B"></rect>
-                  <rect
-                    y="11"
-                    width="34"
-                    height="3"
-                    rx="1.5"
-                    fill="#19191B"
-                  ></rect>
-                </g>
-                <defs>
-                  <clippath id="clip0_231_4713">
-                    <rect width="34" height="14" fill="white"></rect>
-                  </clippath>
-                </defs>
-              </svg>
-            </a>
-            <a className="pr-4 lg:pr-0" href="#">
-              <img
-                className="h-20"
-                src="/1.png"
-                alt=""
-              />
-            </a>
+    <section class="overflow-hidden bg-indigo-900 mb-10">
+      <section>
+        <div class="flex items-center justify-between px-8 py-5">
+          <div class="w-auto">
+            <div class="flex flex-wrap items-center">
+              <div class="w-auto mr-14">
+                <Link href={"/"}>
+                  <img src="/2.png" height={"80px"} width={"80px"} alt="" />
+                </Link>
+              </div>
+            </div>
           </div>
-          <div className="hidden lg:flex items-center gap-5">
-            <a
-              className="inline-flex justify-center items-center text-center h-16 p-5 font-semibold tracking-tight text-lg focus:text-neutral-900 bg-transparent hover:bg-transparent focus:bg-transparent border border-transparent rounded-lg focus:ring-4 focus:ring-transparent transition duration-200"
-              href="#"
-            >
-              Help
-            </a>
-            <a
-              className="inline-flex justify-center items-center text-center h-16 p-5 font-semibold tracking-tight text-xl hover:text-white focus:text-white bg-transparent hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200"
-              href="#"
-            >
-              Sign up free
-            </a>
+          <div class="w-auto">
+            <div class="flex flex-wrap items-center">
+              <div class="w-auto hidden lg:block">
+                <ul class="flex items-center mr-10">
+                  {/* <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg">
+                    <a href="#">Features</a>
+                  </li> */}
+                  {/* <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg">
+                    <a href="#">Solutions</a>
+                  </li> */}
+                  <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg">
+                    <Link href="mot-check">MOT Check</Link>
+                  </li>
+                  <li class="font-heading text-white hover:text-gray-200 text-lg">
+                    <Link href="dvla-check">DVLA Check</Link>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-auto hidden lg:block">
+                <button class="group relative font-heading block py-2 px-5 text-lg text-white border-2 border-white overflow-hidden rounded-10">
+                  <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-white transition ease-in-out duration-500"></div>
+                  <p class="relative z-10 group-hover:text-gray-800">
+                    Start Free Trial
+                  </p>
+                </button>
+              </div>
+              <div class="w-auto lg:hidden">
+                <a href="#">
+                  <svg
+                    class="navbar-burger text-gray-800"
+                    width="51"
+                    height="51"
+                    viewbox="0 0 56 56"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      width="56"
+                      height="56"
+                      rx="28"
+                      fill="currentColor"
+                    ></rect>
+                    <path
+                      d="M37 32H19M37 24H19"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-      <div className="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-xs z-50">
-        <div className="navbar-backdrop fixed inset-0 bg-black opacity-20"></div>
-        <nav className="relative p-8 w-full h-full bg-white overflow-y-auto">
-          <div className="flex flex-col justify-between h-full">
-            <div className="flex items-center justify-between mb-16">
-              <a className="pr-4" href="#">
-                <img
-                  className="h-10"
-                  src="mirga-assets/images/logos/mirga-dark-logo3.svg"
-                  alt=""
-                />
-              </a>
-              <a className="navbar-close" href="#">
-                <svg
-                  width="24"
-                  height="24"
-                  viewbox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6 18L18 6M6 6L18 18"
-                    stroke="#252E4A"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>
-                </svg>
-              </a>
+        <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-4/6 sm:max-w-xs z-50">
+          <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-80"></div>
+          <nav class="relative z-10 px-9 py-8 bg-white h-full">
+            <div class="flex flex-wrap justify-between h-full">
+              <div class="w-full">
+                <div class="flex items-center justify-between -m-2">
+                  <div class="w-auto p-2">
+                    <a class="inline-block" href="#">
+                      <img
+                        src="gradia-assets/logos/gradia-name-black.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="w-auto p-2">
+                    <a class="navbar-burger" href="#">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewbox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M6 18L18 6M6 6L18 18"
+                          stroke="#111827"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col justify-center py-8 w-full">
+                <ul>
+                  <li class="mb-12">
+                    <a
+                      class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
+                      href="#"
+                    >
+                      Features
+                    </a>
+                  </li>
+                  <li class="mb-12">
+                    <a
+                      class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
+                      href="#"
+                    >
+                      Solutions
+                    </a>
+                  </li>
+                  <li class="mb-12">
+                    <a
+                      class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
+                      href="#"
+                    >
+                      Resources
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
+                      href="#"
+                    >
+                      Pricing
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="flex flex-col justify-end w-full">
+                <div class="flex flex-wrap">
+                  <div class="w-full">
+                    <button class="p-0.5 font-heading block w-full text-lg text-gray-900 font-medium rounded-10">
+                      <div class="py-2 px-5 rounded-10">
+                        <p>Login</p>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="w-full">
+                    <button class="group relative p-0.5 font-heading block w-full text-lg text-gray-900 font-medium bg-gradient-cyan overflow-hidden rounded-10">
+                      <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-gradient-cyan transition ease-in-out duration-500"></div>
+                      <div class="py-2 px-5 bg-white rounded-lg">
+                        <p class="relative z-10">Start Free Trial</p>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="flex flex-col items-center gap-2">
-              <a
-                className="inline-flex justify-center items-center text-center w-full h-16 p-5 font-semibold tracking-tight text-lg focus:text-neutral-900 bg-transparent hover:bg-transparent focus:bg-transparent border border-transparent rounded-lg focus:ring-4 focus:ring-transparent transition duration-200"
-                href="#"
-              >
-                Login
-              </a>
-              <a
-                className="inline-flex justify-center items-center text-center w-full h-16 p-5 font-semibold tracking-tight text-xl hover:text-white focus:text-white bg-transparent hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200"
-                href="#"
-              >
-                Sign up free
-              </a>
-            </div>
-          </div>
-        </nav>
-      </div>
+          </nav>
+        </div>
+      </section>
+      <div class="container mx-auto px-4"></div>
     </section>
   );
 };
