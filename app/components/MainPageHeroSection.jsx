@@ -10,13 +10,13 @@ const MainPageHeroSection = () => {
           <div className="flex flex-wrap -m-8">
             <div className="w-full md:w-7/12 p-8">
               <h1 className="mb-6 text-2xl md:text-4xl font-bold font-heading md:max-w-4xl leading-none">
-                MOT Check
+                Free Car Check
               </h1>
               <h2 className="mb-6 text-base text-gray-700 font-base md:max-w-md">
-                Enter your vehicle&apos;s registration number to view the MOT
-                check and vehicle&apos;s mot history.
+                Enter your vehicle&apos;s registration number for a free car
+                check
               </h2>
-              <Tool button={"FREE CAR CHECK"} />
+              <Tool />
             </div>
             <div className="w-full md:w-5/12 p-3 md:mt-10 ">
               <img
