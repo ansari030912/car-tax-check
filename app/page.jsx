@@ -60,7 +60,7 @@ export default function Home() {
                     <div className="p-6 h-full bg-gray-50 bg-opacity-60 border rounded-4xl">
                       <div className="flex flex-col justify-between h-full">
                         <div className="mb-5 block">
-                          <div className="flex flex-wrap mb-4 -m-2">
+                          <div className="flex flex-nowrap mb-4 -m-2">
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,7 @@ export default function Home() {
                     <div className="p-6 h-full bg-gray-50 bg-opacity-60 border rounded-4xl">
                       <div className="flex flex-col justify-between h-full">
                         <div className="mb-5 block">
-                          <div className="flex flex-wrap mb-4 -m-2">
+                          <div className="flex flex-nowrap mb-4 -m-2">
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -142,7 +142,7 @@ export default function Home() {
                     <div className="p-6 h-full bg-gray-50 bg-opacity-60 border rounded-4xl">
                       <div className="flex flex-col justify-between h-full">
                         <div className="mb-5 block">
-                          <div className="flex flex-wrap mb-4 -m-2">
+                          <div className="flex flex-nowrap mb-4 -m-2">
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -188,7 +188,7 @@ export default function Home() {
                     <div className="p-6 h-full bg-gray-50 bg-opacity-60 border rounded-4xl">
                       <div className="flex flex-col justify-between h-full">
                         <div className="mb-5 block">
-                          <div className="flex flex-wrap mb-4 -m-2">
+                          <div className="flex flex-nowrap mb-4 -m-2">
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -225,7 +225,7 @@ export default function Home() {
                     <div className="p-6 h-full bg-gray-50 bg-opacity-60 border rounded-4xl">
                       <div className="flex flex-col justify-between h-full">
                         <div className="mb-5 block">
-                          <div className="flex flex-wrap mb-4 -m-2">
+                          <div className="flex flex-nowrap mb-4 -m-2">
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -260,7 +260,7 @@ export default function Home() {
                     <div className="p-6 h-full bg-gray-50 bg-opacity-60 border rounded-4xl">
                       <div className="flex flex-col justify-between h-full">
                         <div className="mb-5 block">
-                          <div className="flex flex-wrap mb-4 -m-2">
+                          <div className="flex flex-nowrap mb-4 -m-2">
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -303,7 +303,7 @@ export default function Home() {
                     <div className="p-6 h-full bg-gray-50 bg-opacity-60 border rounded-4xl">
                       <div className="flex flex-col justify-between h-full">
                         <div className="mb-5 block">
-                          <div className="flex flex-wrap mb-4 -m-2">
+                          <div className="flex flex-nowrap mb-4 -m-2">
                             <div className="w-auto p-2">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
