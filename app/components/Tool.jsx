@@ -20,7 +20,7 @@ const Tool = ({button}) => {
       if (response.status === 200) {
         localStorage.setItem("carData", JSON.stringify(response.data));
         localStorage.setItem("numberPlate", JSON.stringify(regNum));
-        router.push(`/check-tax`);
+        router.push(`/check-status`);
       } else {
         alert("Error: Unable to fetch data");
       }
