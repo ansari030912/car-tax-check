@@ -16,7 +16,7 @@ const MainPageHeroSection = () => {
                 Enter your vehicle&apos;s registration number for a free car
                 check
               </h2>
-              <Tool />
+              <Tool button={'Free Car Check'}/>
             </div>
             <div className="w-full md:w-5/12 p-3 md:mt-10 ">
               <img

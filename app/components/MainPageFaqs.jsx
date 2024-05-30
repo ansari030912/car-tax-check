@@ -8,7 +8,7 @@ const MainPageFaqs = () => {
           <h2 className="font-heading text-3xl text-gray-800">FAQ</h2>
         </div>
         <div className="w-full">
-          <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-14">
+          <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-4">
             <h3 className="text-xl font-medium text-gray-800 mb-4">
               How to use a free car check?
             </h3>
@@ -18,7 +18,7 @@ const MainPageFaqs = () => {
               history.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-14">
+          <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-4">
             <h3 className="text-xl font-medium text-gray-800 mb-4">
               How to check MOT history of a car?
             </h3>
@@ -28,7 +28,7 @@ const MainPageFaqs = () => {
               and failure reasons in a detailed free car check report.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-14">
+          <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-4">
             <h3 className="text-xl font-medium text-gray-800 mb-4">
               When is my vehicle tax due?
             </h3>
@@ -38,7 +38,7 @@ const MainPageFaqs = () => {
               and MOT expiry dates.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-14">
+          <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-4">
             <h3 className="text-xl font-medium text-gray-800 mb-4">
               Why should I use a car history check?
             </h3>
@@ -51,7 +51,7 @@ const MainPageFaqs = () => {
               damage photos.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-14">
+          <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-4">
             <h3 className="text-xl font-medium text-gray-800 mb-4">
               Why does my car details are incorrect?
             </h3>
@@ -62,7 +62,7 @@ const MainPageFaqs = () => {
               to wait for 5 to 6 days and check your tax and MOT status again.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-14">
+          <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-4">
             <h3 className="text-xl font-medium text-gray-800 mb-4">
               Do you offer a free car check?
             </h3>
@@ -72,7 +72,7 @@ const MainPageFaqs = () => {
               report.
             </p>
           </div>
-          <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-14">
+          <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-4">
             <h3 className="text-xl font-medium text-gray-800 mb-4">
               How can I utilise a free car check to discover any safety recalls
               associated with a vehicle?
