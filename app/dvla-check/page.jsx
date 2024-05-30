@@ -33,8 +33,8 @@ const page = () => {
             </div>
           </div>
         </div>
+        <DLVAFaqs />
       </div>
-      <DLVAFaqs />
     </section>
   );
 };
