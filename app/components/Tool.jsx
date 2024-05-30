@@ -4,7 +4,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-const Tool = () => {
+const Tool = ({button}) => {
   const [regNum, setRegNum] = useState("");
   const router = useRouter();
 
@@ -95,7 +95,7 @@ const Tool = () => {
         />
       </div>
       <br />
-      <div className="flex flex-wrap -m-2.5 mb-20">
+      <div className="flex flex-wrap -m-2.5 mb-6">
         <div className="w-full md:w-auto p-2.5">
           <div className="block">
             <button
@@ -103,7 +103,7 @@ const Tool = () => {
               type="button"
               onClick={handleButtonClick}
             >
-              FREE CAR CHECK
+              {button}
             </button>
           </div>
         </div>

@@ -4,11 +4,10 @@ const MainPageFaqs = () => {
   return (
     <section className="pb-12">
       <div className="px-4">
-        <div className="text-center mb-20">
-          <h2 className="font-heading text-6xl text-gray-800 mb-6">FAQ</h2>
+        <div className="text-center mb-10">
+          <h2 className="font-heading text-3xl text-gray-800">FAQ</h2>
         </div>
         <div className="w-full">
-          {/* Existing FAQs */}
           <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-14">
             <h3 className="text-xl font-medium text-gray-800 mb-4">
               How to use a free car check?
@@ -19,7 +18,6 @@ const MainPageFaqs = () => {
               history.
             </p>
           </div>
-          {/* New FAQs */}
           <div className="pt-6 pr-4 border-t-2 border-indigo-900 mb-14">
             <h3 className="text-xl font-medium text-gray-800 mb-4">
               How to check MOT history of a car?
