@@ -6,7 +6,7 @@ import DLVAFaqs from "../components/DLVAFaqs";
 const page = () => {
   return (
     <>
-      <section class="relative overflow-hidden mx-auto max-w-5xl w-full px-4 sm:px-6 lg:px-8">
+      <section class="relative overflow-hidden mx-auto max-w-5xl w-full sm:px-6 lg:px-8">
         <DVLAPageHeroSection />{" "}
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap -m-6">

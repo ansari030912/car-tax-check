@@ -4,7 +4,7 @@ import MainPageHeroSection from "./components/MainPageHeroSection";
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-5xl w-full px-4 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-5xl w-full sm:px-6 lg:px-8">
       <div className="w-full md:w-6/10 mx-auto">
         <MainPageHeroSection />
         <div className="bg-white">

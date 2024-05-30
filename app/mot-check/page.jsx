@@ -4,7 +4,7 @@ import MotPageFaqs from "../components/MotFaqs";
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-5xl w-full px-4 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-5xl w-full sm:px-6 lg:px-8">
       <div className="w-full md:w-6/10 mx-auto">
         <MainPageHeroSection />
         <div className="bg-white">
@@ -46,13 +46,17 @@ export default function Home() {
           </section>
 
           <section className="px-4">
-            <h2 class="mb-6 font-heading font-bold text-2xl text-gray-900">What You Will Get in Our Free Mot Check Service?</h2>
+            <h2 class="mb-6 font-heading font-bold text-2xl text-gray-900">
+              What You Will Get in Our Free Mot Check Service?
+            </h2>
             <p>
               You can utilise our free MOT check service to get the following
               details of your vehicle:
             </p>
 
-            <h3 class="mb-3 mt-3 font-heading font-semibold text-xl text-gray-800">MOT History</h3>
+            <h3 class="mb-3 mt-3 font-heading font-semibold text-xl text-gray-800">
+              MOT History
+            </h3>
             <p>
               Get a comprehensive report of your car. The government of the UK
               has implemented a rule to perform a MOT test on the third
@@ -60,14 +64,18 @@ export default function Home() {
               check when is your next MOT due and what is the status of your
               current MOT.
             </p>
-            <h3 class="mb-3 mt-3 font-heading font-semibold text-xl text-gray-800">MOT Expiry Date</h3>
+            <h3 class="mb-3 mt-3 font-heading font-semibold text-xl text-gray-800">
+              MOT Expiry Date
+            </h3>
             <p>
               Stay informed about your MOT expiry date to ensure you never miss
               a test. Our service allows you to quickly find out when your
               present MOT certificate expires, helping you plan ahead and avoid
               any penalties for driving without a valid MOT.
             </p>
-            <h3 class="mb-3 mt-3 font-heading font-semibold text-xl text-gray-800">MOT Test Results</h3>
+            <h3 class="mb-3 mt-3 font-heading font-semibold text-xl text-gray-800">
+              MOT Test Results
+            </h3>
             <p>
               Access detailed results from each of your car&apos;s MOT tests.
               This includes whether your vehicle passed or failed, and the
@@ -75,21 +83,27 @@ export default function Home() {
               fingertips allows you to address any issues promptly and maintain
               your vehicle in top condition.
             </p>
-            <h3 class="mb-3 mt-3 font-heading font-semibold text-xl text-gray-800">Current MOT Status</h3>
+            <h3 class="mb-3 mt-3 font-heading font-semibold text-xl text-gray-800">
+              Current MOT Status
+            </h3>
             <p>
               Check the current status of your MOT certificate to ensure your
               vehicle is legally allowed on the road. This feature provides
               peace of mind by confirming whether your car has a valid MOT
               certificate or if action is needed.
             </p>
-            <h3 class="mb-3 mt-3 font-heading font-semibold text-xl text-gray-800">Previous Advisories and Failures</h3>
+            <h3 class="mb-3 mt-3 font-heading font-semibold text-xl text-gray-800">
+              Previous Advisories and Failures
+            </h3>
             <p>
               Our service lists all advisories and failures recorded in past MOT
               tests. This information is crucial for understanding potential
               issues that may need attention and ensuring your vehicle remains
               safe and roadworthy.
             </p>
-            <h3 class="mb-3 mt-3 font-heading font-semibold text-xl text-gray-800">Recorded Mileages at Each MOT Test</h3>
+            <h3 class="mb-3 mt-3 font-heading font-semibold text-xl text-gray-800">
+              Recorded Mileages at Each MOT Test
+            </h3>
             <p>
               Track the mileage recorded at each MOT test. This feature helps
               you monitor your vehicle&apos;s usage over time, identify any
