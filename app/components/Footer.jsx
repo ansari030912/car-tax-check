@@ -129,7 +129,7 @@ const Footer = () => {
       </div>
       <div class="border-b border-coolGray-100"></div>
       <p class="py-2 md:py-4 text-sm text-white font-medium text-center">
-        © 2021 Flex. All rights reserved.
+        © 2024 Car Check Status
       </p>
     </section>
   );
