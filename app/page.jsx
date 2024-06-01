@@ -1,7 +1,34 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import MainPageFaqs from "./components/MainPageFaqs";
 import MainPageHeroSection from "./components/MainPageHeroSection";
 
+export const metadata = {
+  title: "Free Car Check: Get Vehicle Tax, History & Registration",
+  description:
+    "Enter registration number for a free car check & MOT history check. Get details of vehicle tax, theft history, damage report, & advisory notes.",
+  alternates: {
+    canonical: "https://carcheckstatus.co.uk/",
+  },
+  openGraph: {
+    locale: "en_gb",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "tC-9la7Buate7EWO271VFFed2QvAZ74_Kkh8l0rzhW8",
+  },
+};
 export default function Home() {
   return (
     <div className="mx-auto max-w-5xl w-full sm:px-6 lg:px-8">
@@ -83,7 +110,8 @@ export default function Home() {
                           <p className="text-base mb-3 px-4 font-base text-gray-700">
                             MOT history is another test that you should conduct
                             when buying a used car. A vehicle over 3 years of
-                            age is a must to pass the MOT check test.
+                            age is a must to pass the{" "}
+                            <Link href={"/mot-check"}>MOT check</Link> test.
                           </p>
                           <p className="text-base px-4 font-base text-gray-700">
                             You only need to enter your vehicle registration

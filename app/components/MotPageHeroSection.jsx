@@ -2,7 +2,7 @@
 import React from "react";
 import Tool from "./Tool";
 
-const DVLAPageHeroSection = () => {
+const MotPageHeroSection = () => {
   return (
     <section className="bg-blueGray-50">
       <div className="overflow-hidden pt-10">
@@ -41,4 +41,4 @@ const DVLAPageHeroSection = () => {
   );
 };
 
-export default DVLAPageHeroSection;
+export default MotPageHeroSection;

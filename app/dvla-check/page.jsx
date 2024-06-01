@@ -3,6 +3,32 @@ import React from "react";
 import DVLAPageHeroSection from "../components/DVLAPageHeroSection";
 import DLVAFaqs from "../components/DLVAFaqs";
 
+export const metadata = {
+  title: "DVLA Check: Free Licence, Insurance & Tax Check",
+  description:
+    "Use our Free DVLA check tool to validate licence, insurance and tax check of any vehicle in the UK. Get registered keeper details.",
+  alternates: {
+    canonical: "https://carcheckstatus.co.uk/dvla-check",
+  },
+  openGraph: {
+    locale: "en_gb",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "tC-9la7Buate7EWO271VFFed2QvAZ74_Kkh8l0rzhW8",
+  },
+};
 const page = () => {
   return (
     <>

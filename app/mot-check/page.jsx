@@ -1,12 +1,39 @@
 /* eslint-disable @next/next/no-img-element */
-import MainPageHeroSection from "../components/MainPageHeroSection";
 import MotPageFaqs from "../components/MotFaqs";
+import MotPageHeroSection from "../components/MotPageHeroSection";
 
+export const metadata = {
+  title:
+    "MOT Check: Get MOT History Status of Your Vehicle Instantly",
+  description:
+    "Enter your registration number to get MOT check and history status of your vehicle. Get MOT expiry date, advisory notes, and failures.",
+  alternates: {
+    canonical: "https://carcheckstatus.co.uk/mot-check",
+  },
+  openGraph: {
+    locale: "en_gb",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "tC-9la7Buate7EWO271VFFed2QvAZ74_Kkh8l0rzhW8",
+  },
+};
 export default function Home() {
   return (
     <div className="mx-auto max-w-5xl w-full sm:px-6 lg:px-8">
       <div className="w-full md:w-6/10 mx-auto">
-        <MainPageHeroSection />
+        <MotPageHeroSection />
         <div className="bg-white">
           <div className="m-auto container">
             <section className="relative pt-12 bg-white overflow-hidden">
