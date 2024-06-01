@@ -14,7 +14,7 @@ const Tool = ({button}) => {
 
   const handleButtonClick = async () => {
     try {
-      const response = await axios.post("https://carcheckstatus.co.uk/s/api/car/", {
+      const response = await axios.post("https://carcheckstatus.co.uk/api/car/", {
         Number: regNum,
       });
       if (response.status === 200) {
