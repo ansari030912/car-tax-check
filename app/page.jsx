@@ -73,11 +73,17 @@ export default function Home() {
                             </div>
                           </div>
                           <p className="text-base px-4 font-base text-gray-700">
-                            We are offering a free car history check service in
-                            the UK. It is recommended to check a car&apos;s
-                            history before buying a used car. Fortunately, with
-                            our free car check report, you will get detailed
-                            information about your vehicle.
+                            We are offering a free{" "}
+                            <Link
+                              className="text-indigo-800 font-bold"
+                              href={"/car-history-check"}
+                            >
+                              car history check
+                            </Link>{" "}
+                            service in the UK. It is recommended to check a
+                            car&apos;s history before buying a used car.
+                            Fortunately, with our free car check report, you
+                            will get detailed information about your vehicle.
                           </p>
                         </div>
                       </div>
@@ -111,7 +117,13 @@ export default function Home() {
                             MOT history is another test that you should conduct
                             when buying a used car. A vehicle over 3 years of
                             age is a must to pass the{" "}
-                            <Link href={"/mot-check"}>MOT check</Link> test.
+                            <Link
+                              className="text-indigo-800 font-bold"
+                              href={"/mot-check"}
+                            >
+                              MOT check
+                            </Link>{" "}
+                            test.
                           </p>
                           <p className="text-base px-4 font-base text-gray-700">
                             You only need to enter your vehicle registration
@@ -200,7 +212,14 @@ export default function Home() {
                           <p className="text-base mb-3 px-4 font-base text-gray-700">
                             Enter your vehicle identification number to check if
                             your vehicle has an unpaid Driver and Vehicle
-                            Licensing Agency (DVLA) tax.
+                            Licensing Agency{" "}
+                            <Link
+                              href={"/dvla-check"}
+                              className="text-indigo-800"
+                            >
+                              (DVLA)
+                            </Link>{" "}
+                            tax.
                           </p>
                           <p className="text-base px-4 font-base text-gray-700">
                             With our free vehicle enquiry, you can check any

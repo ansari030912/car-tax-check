@@ -38,8 +38,11 @@ const NavBar = () => {
                   <li className="font-heading mr-9 text-white hover:text-gray-200 text-lg">
                     <Link href="/mot-check">MOT Check</Link>
                   </li>
-                  <li className="font-heading text-white hover:text-gray-200 text-lg">
+                  <li className="font-heading mr-9 text-white hover:text-gray-200 text-lg">
                     <Link href="/dvla-check">DVLA Check</Link>
+                  </li>
+                  <li className="font-heading text-white hover:text-gray-200 text-lg">
+                    <Link href="/car-history-check">Car History Check</Link>
                   </li>
                 </ul>
               </div>
@@ -143,6 +146,14 @@ const NavBar = () => {
                       href="/dvla-check"
                     >
                       DVLA Check
+                    </Link>
+                  </li>
+                  <li className="mb-12">
+                    <Link
+                      className="font-heading font-medium text-lg text-white hover:text-gray-200"
+                      href="/car-history-check"
+                    >
+                      Car History Check
                     </Link>
                   </li>
                 </ul>

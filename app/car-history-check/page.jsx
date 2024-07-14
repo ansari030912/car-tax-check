@@ -1,14 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import CheckHistoryFaqs from "../components/CheckHistoryFaqs";
 import CheckHistoryHeroSection from "../components/CheckHistoryHeroSection";
 import MotPageFaqs from "../components/MotFaqs";
 
 export const metadata = {
-  title: "MOT Check: Get MOT History Status of Your Vehicle Instantly",
+  title: "Car History Check",
   description:
-    "Enter your registration number to get MOT check and history status of your vehicle. Get MOT expiry date, advisory notes, and failures.",
+    "Check your vehicle's history with our free car history check tool. Look for outstanding finance, written-off & stolen reports and basic information.",
   alternates: {
-    canonical: "https://carcheckstatus.co.uk/mot-check",
+    canonical: "https://carcheckstatus.co.uk/car-history-check",
   },
   openGraph: {
     locale: "en_gb",
@@ -189,8 +190,8 @@ export default function HistoryCheck() {
               </li>
               <li style={{ paddingTop: "4px" }}>
                 <strong>Mileage Verification:</strong> Mileage verification
-                ensures the odometer reading is accurate and hasn&apos;t any mileage
-                discrepancies.
+                ensures the odometer reading is accurate and hasn&apos;t any
+                mileage discrepancies.
               </li>
               <li style={{ paddingTop: "4px" }}>
                 <strong>Previous Owners:</strong> This check provides a record
@@ -204,7 +205,14 @@ export default function HistoryCheck() {
               </li>
             </ul>
             <h2 class="font-heading font-bold text-2xl text-gray-900">
-              How to Use Free Car Check Tool?
+              How to Use{" "}
+              <Link
+                className="text-indigo-800"
+                href={"https://carcheckstatus.co.uk/"}
+              >
+                Free Car Check{" "}
+              </Link>
+              Tool?
             </h2>
             <ul className="list-disc pl-5 mx-4 py-4">
               <li style={{ paddingTop: "4px" }}>
@@ -237,8 +245,11 @@ export default function HistoryCheck() {
               <li style={{ paddingTop: "4px" }}>
                 <strong>Free Information:</strong> Access essential details
                 about any vehicle at no cost. Our free car check report includes
-                stolen status, outstanding finance, write-offs, MOT check,
-                mileage verification, and more.
+                stolen status, outstanding finance, write-offs,{" "}
+                <Link className="text-indigo-800" href={"https://carcheckstatus.co.uk/mot-check"}>
+                  MOT check
+                </Link>
+                , mileage verification, and more.
               </li>
               <li style={{ paddingTop: "4px" }}>
                 <strong>Trusted Partners:</strong> We source data from reputable

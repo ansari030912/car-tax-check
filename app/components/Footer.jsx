@@ -25,7 +25,7 @@ const Footer = () => {
                 <li class="mb-4">
                   <Link
                     class="inline-block text-gray-100 hover:text-gray-200 font-medium"
-                    href="mot-check"
+                    href="/mot-check"
                   >
                     MOT Check
                   </Link>
@@ -33,7 +33,7 @@ const Footer = () => {
                 <li class="mb-4">
                   <Link
                     class="inline-block text-gray-100 hover:text-gray-200 font-medium"
-                    href="dvla-check"
+                    href="/dvla-check"
                   >
                     DVLA Check
                   </Link>
@@ -41,7 +41,7 @@ const Footer = () => {
                 <li>
                   <Link
                     class="inline-block text-gray-100 hover:text-gray-200 font-medium"
-                    href="dvla-check"
+                    href="/car-history-check"
                   >
                     Car History Check
                   </Link>
@@ -54,7 +54,7 @@ const Footer = () => {
                 <li class="mb-4">
                   <Link
                     class="inline-block text-gray-100 hover:text-gray-200 font-medium"
-                    href="#"
+                    href="/#"
                   >
                     Blog
                   </Link>
@@ -62,7 +62,7 @@ const Footer = () => {
                 <li class="mb-4">
                   <Link
                     class="inline-block text-gray-100 hover:text-gray-200 font-medium"
-                    href="#"
+                    href="/#"
                   >
                     Newsletter
                   </Link>
@@ -70,7 +70,7 @@ const Footer = () => {
                 <li class="mb-4">
                   <Link
                     class="inline-block text-gray-100 hover:text-gray-200 font-medium"
-                    href="#"
+                    href="/#"
                   >
                     Help Centre
                   </Link>
@@ -78,7 +78,7 @@ const Footer = () => {
                 <li class="mb-4">
                   <Link
                     class="inline-block text-gray-100 hover:text-gray-200 font-medium"
-                    href="#"
+                    href="/#"
                   >
                     Careers
                   </Link>
@@ -86,7 +86,7 @@ const Footer = () => {
                 <li>
                   <Link
                     class="inline-block text-gray-100 hover:text-gray-200 font-medium"
-                    href="#"
+                    href="/#"
                   >
                     Support
                   </Link>
