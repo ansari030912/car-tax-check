@@ -13,7 +13,10 @@ const NavBar = () => {
   };
 
   return (
-    <section className="overflow-hidden bg-indigo-900 mb-10">
+    <section
+      style={{ backgroundColor: "#001B69" }}
+      className="overflow-hidden mb-10"
+    >
       <section>
         <div className="flex items-center justify-between px-8 py-2">
           <div className="w-auto">

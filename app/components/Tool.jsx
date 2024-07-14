@@ -4,7 +4,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-const Tool = ({button}) => {
+const Tool = ({ button }) => {
   const [regNum, setRegNum] = useState("");
   const router = useRouter();
 
@@ -14,9 +14,12 @@ const Tool = ({button}) => {
 
   const handleButtonClick = async () => {
     try {
-      const response = await axios.post("https://carcheckstatus.co.uk/api/car/", {
-        Number: regNum,
-      });
+      const response = await axios.post(
+        "https://carcheckstatus.co.uk/api/car/",
+        {
+          Number: regNum,
+        }
+      );
       if (response.status === 200) {
         localStorage.setItem("carData", JSON.stringify(response.data));
         localStorage.setItem("numberPlate", JSON.stringify(regNum));
@@ -99,7 +102,8 @@ const Tool = ({button}) => {
         <div className="w-full md:w-auto p-2.5">
           <div className="block">
             <button
-              className="py-4 px-6 w-full text-white font-semibold border border-indigo-900 rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-900 hover:bg-indigo-800 transition ease-in-out duration-200"
+              style={{ backgroundColor: "#001B69" }}
+              className="py-4 px-6 w-full text-white font-semibold border border-indigo-900 rounded-xl focus:ring focus:ring-indigo-300  hover:bg-indigo-800 transition ease-in-out duration-200"
               type="button"
               onClick={handleButtonClick}
             >

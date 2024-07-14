@@ -5,7 +5,7 @@ import React from "react";
 const Footer = () => {
   return (
     <section
-      class="bg-indigo-900"
+      style={{ backgroundColor: "#001B69" }}
       //   style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;"
     >
       <div className="mx-auto max-w-5xl w-full sm:px-6 lg:px-8">
@@ -30,12 +30,20 @@ const Footer = () => {
                     MOT Check
                   </Link>
                 </li>
-                <li>
+                <li class="mb-4">
                   <Link
                     class="inline-block text-gray-100 hover:text-gray-200 font-medium"
                     href="dvla-check"
                   >
                     DVLA Check
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    class="inline-block text-gray-100 hover:text-gray-200 font-medium"
+                    href="dvla-check"
+                  >
+                    Car History Check
                   </Link>
                 </li>
               </ul>
